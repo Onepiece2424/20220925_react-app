@@ -1,15 +1,16 @@
 import React from "react";
-import Article from "./components/Article"
-
+// import Article from "./components/Article"
+import TextInput from "./components/TextInput"
 
 function App() {
-  const authorName = 'トラハック'
+  // const authorName = 'トラハック'
 
-  const arr = ["りんご","みかん","バナナ","キウイ","パイナップル","グレープフルーツ"]
+  // const arr = ["りんご","みかん","バナナ","キウイ","パイナップル","グレープフルーツ"]
 
   return (
     <div>
-      <Article
+      <TextInput />
+      {/* <Article
       title={'新日本一わかりやすいReact入門1'}
       content={'今日のコンテンツはpropsについて。'}
       authorName={authorName}
@@ -24,7 +25,7 @@ function App() {
       <p>map,filter関数を用いた特定の条件下での繰り返し処理</p>
       <ul>
         {arr.filter(fruit => fruit.includes("ル")).map((fruit, i) => <li key={i}>{fruit}</li>)}
-      </ul>
+      </ul> */}
     </div>
   );
 }
