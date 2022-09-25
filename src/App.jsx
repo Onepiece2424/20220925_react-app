@@ -1,8 +1,8 @@
 import React from "react";
 // import Article from "./components/Article"
-import TextInput from "./components/TextInput"
+// import TextInput from "./components/TextInput"
 import Counter from "./components/Counter"
-
+import ToggleButton from "./components/ToggleButton"
 
 function App() {
   // const authorName = 'トラハック'
@@ -11,6 +11,9 @@ function App() {
 
   return (
     <div>
+      <ToggleButton />
+      <br></br>
+      <br></br>
       <Counter />
       {/* <TextInput /> */}
       {/* <Article
