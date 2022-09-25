@@ -17,7 +17,7 @@ function App() {
       authorName={authorName}
       />
       <ul>
-        {arr.map((fruit, i) => <li ley={i}>{fruit}</li>)}
+        {arr.map((fruit, i) => <li key={i}>{fruit}</li>)}
       </ul>
     </div>
   );
