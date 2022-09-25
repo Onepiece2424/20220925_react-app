@@ -14,7 +14,7 @@ function App() {
       <ToggleButton />
       <br></br>
       <br></br>
-      <Counter />
+      {/* <Counter /> */}
       {/* <TextInput /> */}
       {/* <Article
       title={'新日本一わかりやすいReact入門1'}
