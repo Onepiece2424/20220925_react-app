@@ -1,6 +1,8 @@
 import React from "react";
 // import Article from "./components/Article"
 import TextInput from "./components/TextInput"
+import Counter from "./components/Counter"
+
 
 function App() {
   // const authorName = 'トラハック'
@@ -9,7 +11,8 @@ function App() {
 
   return (
     <div>
-      <TextInput />
+      <Counter />
+      {/* <TextInput /> */}
       {/* <Article
       title={'新日本一わかりやすいReact入門1'}
       content={'今日のコンテンツはpropsについて。'}
