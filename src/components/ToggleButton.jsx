@@ -7,13 +7,15 @@ const ToggleButton = () => {
     setOpen(prevState => !prevState)
   }
 
+
   useEffect(() => {
     console.log("Current state is...", open)
     if (open) {
       console.log("Subscribe database...")
       setTimeout(() => {
         console.log("タイムアウト！！！")
-        const text = "あなたは、タイムアウトしました。"
+        const name = "あなた"
+        const text = `${name}は、タイムアウトしました。`
         console.log(text);
       }, 3000);
     }
