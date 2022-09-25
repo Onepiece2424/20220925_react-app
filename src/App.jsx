@@ -4,6 +4,9 @@ import Article from "./components/Article"
 
 function App() {
   const authorName = 'トラハック'
+
+  const arr = ["りんご","みかん","バナナ","キウイ"]
+
   return (
     <div>
       <Article
@@ -13,6 +16,9 @@ function App() {
       isPublished={true}
       authorName={authorName}
       />
+      <ul>
+        {arr.map((fruit, i) => <li ley={i}>{fruit}</li>)}
+      </ul>
     </div>
   );
 }
