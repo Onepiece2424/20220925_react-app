@@ -11,6 +11,9 @@ const ToggleButton = () => {
     console.log("Current state is...", open)
     if (open) {
       console.log("Subscribe database...")
+      setTimeout(() => {
+        console.log("タイムアウト！！！")
+      }, 3000);
     }
     return () => {
       console.log("Unsubscribe database...")
