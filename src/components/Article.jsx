@@ -1,15 +1,19 @@
 import { useState } from "react";
+import PublishButton from "./PublishButton"
 
 const Article = (props) => {
-  const [ispublished, setIsPublished] = useState(false);
-  console.log(ispublished);
+  const [isPublished, setIsPublished] = useState(false);
+
+  const publishArticle = () => {
+    setIsPublished(true)
+  }
 
   return (
     <div>
       <h2>{props.title}</h2>
       <p>{props.content}</p>
       <p>{props.authorName}</p>
-      <button onClick={() => setIsPublished(true)}>公開</button>
+      <PublishButton isPublished={isPublished} onClick={publishArticle} />
     </div>
   )
 }

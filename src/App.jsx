@@ -14,16 +14,6 @@ function App() {
       content={'今日のコンテンツはpropsについて。'}
       authorName={authorName}
       />
-      <Article
-      title={'新日本一わかりやすいReact入門2'}
-      content={'今日のコンテンツはpropsについて。'}
-      authorName={authorName}
-      />
-      <Article
-      title={'新日本一わかりやすいReact入門3'}
-      content={'今日のコンテンツはpropsについて。'}
-      authorName={authorName}
-      />
       <br></br>
       <br></br>
       <br></br>
