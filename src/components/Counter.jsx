@@ -11,9 +11,10 @@ const Counter = () => {
     setCount(prevState => prevState - 1)
   }
 
+  // console.log(a, b)のように引数が複数の時は、a,bそれぞれ表示される。
   useEffect(() => {
-    console.log("Current count is ...", count) // console.log(a, b)のように引数が複数の時は、a,bそれぞれ表示される。
-   })
+    console.log("Current count is ...", count)
+   }, [])
 
   return (
     <>
