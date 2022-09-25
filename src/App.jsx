@@ -10,12 +10,23 @@ function App() {
   return (
     <div>
       <Article
-      title={'新日本一わかりやすいReact入門'}
+      title={'新日本一わかりやすいReact入門1'}
       content={'今日のコンテンツはpropsについて。'}
-      order={3}
-      isPublished={true}
       authorName={authorName}
       />
+      <Article
+      title={'新日本一わかりやすいReact入門2'}
+      content={'今日のコンテンツはpropsについて。'}
+      authorName={authorName}
+      />
+      <Article
+      title={'新日本一わかりやすいReact入門3'}
+      content={'今日のコンテンツはpropsについて。'}
+      authorName={authorName}
+      />
+      <br></br>
+      <br></br>
+      <br></br>
       <p>map関数を用いた繰り返し処理</p>
       <ul>
         {arr.map((fruit, i) => <li key={i}>{fruit}</li>)}
