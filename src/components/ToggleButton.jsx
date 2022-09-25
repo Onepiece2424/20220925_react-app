@@ -13,6 +13,8 @@ const ToggleButton = () => {
       console.log("Subscribe database...")
       setTimeout(() => {
         console.log("タイムアウト！！！")
+        const text = "あなたは、タイムアウトしました。"
+        console.log(text);
       }, 3000);
     }
     return () => {
